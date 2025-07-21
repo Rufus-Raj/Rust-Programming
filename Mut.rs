@@ -1,4 +1,4 @@
-fn mut() {
+fn Mut() {
     let mut x=1000;
     let y="Programming";
     println!("{} {}",x,y);
