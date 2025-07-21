@@ -1,10 +1,10 @@
 fn impexp(){
   let impint = 25;
-  let impchar = "Hello World!";
+  let impfloat = 26.9;
   let expint: i64 = 27;
-  let expchar: f32 = "Programming";
+  let expfloat: f32 = 2.8;
   println!("implicit int : {}",impint);
-  println!("implicit char : {}",impchar);
+  println!("implicit float : {}",impfloat);
   println!("explicit int(i64) : {}",expint);
-  println!("explicit char(f32) : {}",expchar);
+  println!("explicit float(f32) : {}",expfloat);
 }
